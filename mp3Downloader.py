@@ -3,7 +3,7 @@ import os
 import sys
 if hasattr(sys, 'frozen'):
     os.environ['PATH'] = sys._MEIPASS + ";" + os.environ['PATH']
-from main import Ui_MainWindow
+from mainUI import Ui_MainWindow
 from PyQt5.QtWidgets import QDialog, QApplication
 
 ydl_opts = {
