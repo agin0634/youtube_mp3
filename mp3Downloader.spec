@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['mp3Downloader.py'],
-             pathex=['d:\\Documents\\python\\Youtube_mp3'],
+             pathex=['D:\\Documents\\python\\Youtube_mp3'],
              binaries=[],
              datas=[],
              hiddenimports=[],
